@@ -1,5 +1,5 @@
 const codeBreaker = require('./codeBreaker');
-const instancia=new codeBreaker();
+const instancia=new codeBreaker(0,"1234");
 
 test('adivino todos', () => {
   expect(instancia.guess("1234")).toBe(" x x x x");
