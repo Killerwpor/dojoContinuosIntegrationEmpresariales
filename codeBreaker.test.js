@@ -28,10 +28,3 @@ test('adivino 2 numeros con posicion y 2 numeros sin posicion', () => {
 test('adivino 1 numero con posicion y 2 numeros sin posicion y 1 no adivino', () => {
   expect(instancia.guess("1328")).toBe(" x _ _");
 });
-
-
-
-
-
-
-
